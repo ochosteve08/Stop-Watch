@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 100vh;
+ 
+}
+
+     
+
+.container{
+    background-color: white;
+    width: 40%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#timer{
+    width: 100%;
+    font-size: 40px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+     padding: 0 5px;
+     border-radius: 2px;
+}
+
+button i{
+    color: white;
+    padding: 5px;
+}
+
+#play{
+    background: green;
+}
+
+#pause{
+    background: yellow;;
+}
+
+#reset{
+    background: red;
+}
